@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #0339fc;
+	font-family: cursive;
+}
+
+h1{
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.container{
+	width: 80%;
+	max-width: 450px;
+	background-color: rgba(255, 255, 255, 0.3);
+	box-shadow: 3px 3px 8px black;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.input{
+	width: 300px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	border: none;
+	outline: none;
+}
+
+.meaning-container{
+	margin: 0 20px;
+	display: none;
+}
+
+.meaning-container span{
+	color: white;
+}
